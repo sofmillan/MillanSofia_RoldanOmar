@@ -1,11 +1,9 @@
 package dh.backend.test;
 
-import dh.backend.dao.impl.OdontologoDaoEnMemoria;
 import dh.backend.dao.impl.OdontologoDaoH2;
 import dh.backend.model.Odontologo;
 import dh.backend.service.OdontologoService;
 import org.apache.log4j.Logger;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
